@@ -10,16 +10,36 @@ export class Categories extends Component {
           name: "Все",
         },
         {
-          key: "Furniture",
-          name: "Мебель",
+          key: "T-shirts",
+          name: "Футболки",
         },
         {
-          key: "Lighting",
-          name: "Освещение",
+          key: "Hoodies",
+          name: "Толстовки",
         },
         {
-          key: "chair",
-          name: "Стулья",
+          key: "Shoes",
+          name: "Обувь",
+        },
+        {
+          key: "Trousers",
+          name: "Брюки",
+        },
+        {
+          key: "Hats",
+          name: "Головные уборы",
+        },
+        {
+          key: "Backpacks",
+          name: "Рюкзаки",
+        },
+        {
+          key: "Shorts",
+          name: "Шорты",
+        },
+        {
+          key: "Jackets",
+          name: "Куртки",
         },
       ],
     };

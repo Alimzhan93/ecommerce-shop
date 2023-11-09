@@ -17,7 +17,7 @@ class App extends React.Component {
           title: 'Футболка Nike Dri-FIT',
           img: 'nike-dri-fit-tshirt.jpeg',
           desc: 'Спортивная футболка Nike с технологией Dri-FIT для отвода влаги и комфорта во время тренировок.',
-          category: 'Футболки',
+          category: 'T-shirts',
           price: '29.99',
         },
         {
@@ -25,7 +25,7 @@ class App extends React.Component {
           title: 'Футболка Adidas Climalite',
           img: 'adidas-climalite-tshirt.jpeg',
           desc: 'Спортивная футболка Adidas с технологией Climalite для отвода влаги и проветривания.',
-          category: 'Футболки',
+          category: 'T-shirts',
           price: '27.99',
         },
         {
@@ -33,7 +33,7 @@ class App extends React.Component {
           title: 'Футболка Under Armour HeatGear',
           img: 'under-armour-heatgear-tshirt.jpeg',
           desc: 'Футболка Under Armour с технологией HeatGear для комфорта в жаркую погоду.',
-          category: 'Футболки',
+          category: 'T-shirts',
           price: '32.99',
         },
         {
@@ -41,7 +41,7 @@ class App extends React.Component {
           title: 'Толстовка Nike Sportswear',
           img: 'nike-sportswear-hoodie.jpeg',
           desc: 'Спортивная толстовка Nike Sportswear с капюшоном и карманами.',
-          category: 'Толстовки',
+          category: 'Hoodies',
           price: '44.99',
         },
         {
@@ -49,7 +49,7 @@ class App extends React.Component {
           title: 'Толстовка Adidas Originals',
           img: 'adidas-originals-hoodie.jpeg',
           desc: 'Классическая толстовка Adidas Originals с логотипом и карманами.',
-          category: 'Толстовки',
+          category: 'Hoodies',
           price: '39.99',
         },
         {
@@ -57,7 +57,7 @@ class App extends React.Component {
           title: 'Толстовка Puma Essentials',
           img: 'puma-essentials-hoodie.jpeg',
           desc: 'Спортивная толстовка Puma Essentials с удобным капюшоном.',
-          category: 'Толстовки',
+          category: 'Hoodies',
           price: '37.99',
         },
         {
@@ -65,7 +65,7 @@ class App extends React.Component {
           title: 'Беговые кроссовки Nike Air Zoom',
           img: 'nike-air-zoom-running-shoes.jpeg',
           desc: 'Беговые кроссовки Nike Air Zoom с амортизацией и поддержкой стопы.',
-          category: 'Обувь',
+          category: 'Shoes',
           price: '89.99',
         },
         {
@@ -73,7 +73,7 @@ class App extends React.Component {
           title: 'Кроссовки Adidas Ultraboost',
           img: 'adidas-ultraboost-running-shoes.jpeg',
           desc: 'Беговые кроссовки Adidas Ultraboost с мягкой подошвой и адаптивной посадкой.',
-          category: 'Обувь',
+          category: 'Shoes',
           price: '99.99',
         },
         {
@@ -81,7 +81,7 @@ class App extends React.Component {
           title: 'Кроссовки Nike Air Force 1',
           img: 'nike-air-force-1-shoes.jpeg',
           desc: 'Классические кроссовки Nike Air Force 1 с иконичным дизайном и отличной амортизацией.',
-          category: 'Обувь',
+          category: 'Shoes',
           price: '79.99',
         },
         {
@@ -89,7 +89,7 @@ class App extends React.Component {
           title: 'Спортивные брюки Adidas',
           img: 'adidas-sport-pants.jpeg',
           desc: 'Спортивные брюки Adidas с манжетами и боковыми карманами.',
-          category: 'Брюки',
+          category: 'Trousers',
           price: '49.99',
         },
         {
@@ -97,7 +97,7 @@ class App extends React.Component {
           title: 'Бейсбольная кепка New Era',
           img: 'new-era-baseball-cap.jpeg',
           desc: 'Классическая бейсбольная кепка New Era с регулируемой застежкой.',
-          category: 'Головные уборы',
+          category: 'Hats',
           price: '19.99',
         },
         {
@@ -105,7 +105,7 @@ class App extends React.Component {
           title: 'Спортивный рюкзак Nike',
           img: 'nike-sport-backpack.jpeg',
           desc: 'Прочный спортивный рюкзак Nike с множеством карманов и удобными лямками.',
-          category: 'Рюкзаки',
+          category: 'Backpacks',
           price: '54.99',
         },
         {
@@ -113,7 +113,7 @@ class App extends React.Component {
           title: 'Спортивные шорты Puma',
           img: 'puma-sport-shorts.jpeg',
           desc: 'Спортивные шорты Puma с логотипом Puma и регулируемым поясом.',
-          category: 'Шорты',
+          category: 'Shorts',
           price: '29.99',
         },
         {
@@ -121,7 +121,7 @@ class App extends React.Component {
           title: 'Шорты для йоги Lululemon',
           img: 'lululemon-yoga-shorts.jpeg',
           desc: 'Удобные и эластичные шорты для йоги от Lululemon с высокой посадкой.',
-          category: 'Шорты',
+          category: 'Shorts',
           price: '39.99',
         },
         {
@@ -129,7 +129,7 @@ class App extends React.Component {
           title: 'Тренировочная куртка Puma',
           img: 'puma-training-jacket.jpeg',
           desc: 'Тренировочная куртка Puma с водоотталкивающей отделкой и молнией на молнии.',
-          category: 'Куртки',
+          category: 'Jackets',
           price: '49.99',
         },
         {
@@ -137,7 +137,7 @@ class App extends React.Component {
           title: 'Беговые кроссовки Nike Air Zoom 2',
           img: 'nike-air-zoom-running-shoes-2.jpeg',
           desc: 'Беговые кроссовки Nike Air Zoom с амортизацией и поддержкой стопы.',
-          category: 'Обувь',
+          category: 'Shoes',
           price: '89.99',
         },
         {
@@ -145,7 +145,7 @@ class App extends React.Component {
           title: 'Кроссовки Adidas Ultraboost 2',
           img: 'adidas-ultraboost-running-shoes-2.jpeg',
           desc: 'Беговые кроссовки Adidas Ultraboost с мягкой подошвой и адаптивной посадкой.',
-          category: 'Обувь',
+          category: 'Shoes',
           price: '99.99',
         },
         {
@@ -153,7 +153,7 @@ class App extends React.Component {
           title: 'Беговые кроссовки Asics Gel-Kayano 2',
           img: 'asics-gel-kayano-running-shoes-2.jpeg',
           desc: 'Беговые кроссовки Asics Gel-Kayano с устойчивой посадкой и амортизацией.',
-          category: 'Обувь',
+          category: 'Shoes',
           price: '94.99',
         },
       ],
